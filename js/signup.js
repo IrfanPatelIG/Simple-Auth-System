@@ -39,6 +39,7 @@ function signUp() {
     swal({
       text: "Sign up successful",
     });
+    window.location.href = "index.html";
   } else {
     swal({
       text: "Invalid email or email already in use",
